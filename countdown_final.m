@@ -3,30 +3,31 @@
 % * Team meambers: Victor Albarran, David Ayala, Olivia Clark, Ryan Gorecki
 % * Course: Engr 144- Winter 2018
 % * Date: March 18, 2018
-% * Description: In this MATLAB were creating the code for the countdown
-% for our project. This countdown besides with the arduino code will help
-% launch our car into the ramp.
+% * Description: This script contains the code for the countdown
+% for our project. This countdown along with the arduino code will help
+% launch ENGR101 cars down the ramp. This script includes serial
+% communication functions.
 %% command windows
  clc, clear, close all
  
 %% Countdown
 h = msgbox(' 5');  %this will display the text box and the number that is given
 set(h, 'position', [500 300 100 100]); %makes text box bigger
-ah = get( h, 'CurrentAxes' );
+ah = get( h, 'CurrentAxes' ); %displays text box on screen
 ch = get( ah, 'Children' );  %function that will show the image in this case the box
 set( ch, 'FontSize', 70 ); %makes text box bigger
 pause(1)       % this function will pause the text box for a second
 delete(h)      % This function will close the text box for the countdown
 h = msgbox(' 4');   %this will display the text box and the number that is given
 set(h, 'position', [500 300 100 100]); %makes text box bigger
-ah = get( h, 'CurrentAxes' );
+ah = get( h, 'CurrentAxes' ); %displays text box on screen
 ch = get( ah, 'Children' );  %function that will show the image in this case the box
 set( ch, 'FontSize', 70 ); %makes text box bigger
 pause(1)         % this function will pause the text box for a second
 delete(h)   % This function will close the text box for the countdown   
 h = msgbox(' 3');   %this will display the text box and the number that is given
 set(h, 'position', [500 300 100 100]); %makes text box bigger
-ah = get( h, 'CurrentAxes' );
+ah = get( h, 'CurrentAxes' ); %displays text box on screen
 ch = get( ah, 'Children' );   %function that will show the image in this case the box
 set( ch, 'FontSize', 70 ); %makes text box bigger
 pause(1)         % this function will pause the text box for a second
@@ -34,14 +35,14 @@ delete(h)   % This function will close the text box for the countdown
 close all   % closes all previous windows
 h = msgbox(' 2');  %this will display the text box and the number that is given
 set(h, 'position', [500 300 100 100]); %makes box bigger
-ah = get( h, 'CurrentAxes' );
+ah = get( h, 'CurrentAxes' ); %displays text box on screen
 ch = get( ah, 'Children' );  %function that will show the image in this case the box
 set( ch, 'FontSize', 70 ); %makes text box bigger
 pause(1)         % this function will pause the text box for a second
 delete(h)   % This function will close the text box for the countdown
 h = msgbox(' 1');  %this will display the text box and the number that is given
 set(h, 'position', [500 300 100 100]); %makes test box bigger
-ah = get( h, 'CurrentAxes' );
+ah = get( h, 'CurrentAxes' ); %displays text box on screen
 ch = get( ah, 'Children' );  %function that will show the image in this case the box
 set( ch, 'FontSize', 70 ); %makes text box bigger
 pause(1)         % this function will pause the text box for a second
