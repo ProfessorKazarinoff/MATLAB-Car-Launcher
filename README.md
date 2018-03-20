@@ -4,22 +4,22 @@ A car launcher ran on matlab as part of a project for ENGR114 at PCC
 Our group was tasked with building a launching mechanism for model cars to roll down a ramp.  This project will be primarily used to help the ENGR101 class with their group projects of building a car that fits in a shoebox and can be released from the provided ramp.  This project will use an Arduino as well as Matlab code and 3D printed gates to release the vehicles from a preset height at a consistent speed for all participants.
 # Bill of materials:
 
-Dell Power supply 	To power the set-up	model L305P	Link
+Dell Power supply 	To power the set-up	model L305P
 ~30$-50$
 
-Stepper motor drive X2	Connects the motor to the Arduino	Easy driver	Link
+Stepper motor drive X2	Connects the motor to the Arduino	Easy driver
 14.95$
 
-Stepper motor with cable X2	Moves the gates	motor	Link
+Stepper motor with cable X2	Moves the gates	motor
 14.95$
 
-Sparkfun redboard	Connecting to the computer program	Sparkfun redboard – programmed with arduino	Link
+Sparkfun redboard	Connecting to the computer program	Sparkfun redboard – programmed with arduino
 19.95$
 
-Hex Inverter	This allow the code to run backwards making less coding nessessary	Texas Instruments – hex inverter	Link
+Hex Inverter	This allow the code to run backwards making less coding nessessary	Texas Instruments – hex inverter
 <1$
 
-Breadboard	For connecting between the parts	breadboard	Link
+Breadboard	For connecting between the parts	breadboard
 4.95$
 
 3D printed gates	These are attached to the motors and open and close	gates	Any gates would work	Cost of plastic for printer
