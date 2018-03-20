@@ -37,6 +37,9 @@ The [cargate.ino](countdown_final.ino) script was run in MATLAB.
 # Results:
 We were successfully able to fulfill our problem statement by completing a gate that would release a car for the ENGR101 group project using the Arduino and matlab. We did this using various electronic parts as well as using 3D printed gates to hold the car until programing the gates to release.
 
+![IMG_4880.JPG](IMG_4880.JPG "pic")
+![IMG_4881.JPG](IMG_4881.JPG "pic")
+![IMG_4882.JPG](IMG_4882.JPG "pic")
 # Future Work:
 Future work for this project could be upgrading the motors being used for more speedy opening of the gate.  Also mounting multiple gates would allow for two cars to travel at once and race each other.  This could also be combined with some kind of censor that would track when the vehicle crossed a designated distance and that would allow the ENGR101 project to have a speed element as well as the total distance tracking that it currently has. Also, maybe designing the gates in a different way could potentially improve efficiency for example having them lift up instead of opening. 
 
