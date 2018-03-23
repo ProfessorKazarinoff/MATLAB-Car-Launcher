@@ -33,7 +33,7 @@ The first step was soldering the stepper motor drives together from the kits tha
 # Matlab Code:
 The [countdown_final.m](countdown_final.m) script was run in MATLAB.
 # Arduino Code:
-The [cargate.ino](countdown_final.ino) script was run in MATLAB.
+The [cargate.ino](countdown_final.ino) script was run on the Arduino.
 # Results:
 We were successfully able to fulfill our problem statement by completing a gate that would release a car for the ENGR101 group project using the Arduino and matlab. We did this using various electronic parts as well as using 3D printed gates to hold the car until programing the gates to release.
 
